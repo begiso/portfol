@@ -23,7 +23,7 @@ defineProps<{
     </div>
 
     <div class="card-zoom rounded-b-md">
-      <NuxtImg class="card-zoom-image" :src="`/images/${thumbnail}`" :alt="title" />
+      <img class="card-zoom-image" :src="`/images/${thumbnail}`" :alt="title">
     </div>
   </NuxtLink>
 </template>

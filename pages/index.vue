@@ -58,7 +58,7 @@ import { DESIGN } from '~/projects'
       </div>
     </div>
 
-    <NuxtImg class="object-cover" src="/images/begis.png" alt="Me" />
+    <img class="object-cover" src="/images/begis.png" alt="Me">
   </div>
 
   <ToTop />

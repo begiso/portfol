@@ -29,7 +29,7 @@ function capitalizeFirstLetter(str: string) {
   </p>
 
   <div class="mt-4  max-md:grid-cols-1" :class="{ 'grid': isSMM, 'grid-cols-3': isSMM, 'gap-6': isSMM }">
-    <NuxtImg v-for="image in project?.images || smmProject?.images" :key="image.src" class="w-full" :src="image.src" :alt="image.alt" />
+    <img v-for="image in project?.images || smmProject?.images" :key="image.src" class="w-full" :src="image.src" :alt="image.alt">
   </div>
 
   <ToTop />

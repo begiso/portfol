@@ -9,7 +9,7 @@ defineProps<{
 <template>
   <NuxtLink :to="link" class="block rounded-md border border-solid border-[#dadada]">
     <div class="card-zoom rounded-md">
-      <NuxtImg class="card-zoom-image" :src="`/images/${thumbnail}`" :alt="title" />
+      <img class="card-zoom-image" :src="`/images/${thumbnail}`" :alt="title" />
 
       <p class="text-xl p-3 flex justify-between items-center">
         <span>{{ title }}</span>

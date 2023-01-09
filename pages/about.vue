@@ -10,7 +10,7 @@ useHead({
   </h1>
 
   <div class="text-xl max-md:text-lg">
-    <NuxtImg class="float-left max-md:w-full pr-4 pb-2" src="/images/me.png" alt="Me" />
+    <img class="float-left max-md:w-full pr-4 pb-2" src="/images/me.png" alt="Me">
 
     <h2 class="text-3xl max-md:text-2xl max-md:text-center font-bold">
       Всем привет.
