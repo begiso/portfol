@@ -8,7 +8,7 @@ defineProps<{
 </script>
 
 <template>
-  <NuxtLink :to="link" class="block rounded-md border border-solid border-[#dadada]">
+  <NuxtLink :to="link" class="block rounded-md border border-solid border-[#dadada] arrow-right-icon-wrapper">
     <div class="flex items-center justify-between">
       <div class="left pt-3 pl-5">
         <span class="text-xl font-light">{{ title }}</span>

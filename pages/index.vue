@@ -30,7 +30,7 @@ import { DESIGN } from '~/projects'
       />
     </div>
 
-    <div class="mt-4 text-lg">
+    <div class="mt-4 text-lg arrow-right-icon-wrapper">
       <NuxtLink to="/portfolio" class="pl-4 max-md:pl-0 text-[#a4a4a4]">
         Все работы
         <ArrowRightIcon class="inline-block w-5 h-5" />
@@ -52,7 +52,7 @@ import { DESIGN } from '~/projects'
         </p>
 
         <div class="mt-4 max-md:my-2 text-lg">
-          <NuxtLink to="/about" class="pl-4 max-md:pl-0 text-[#a4a4a4]">
+          <NuxtLink to="/about" class="pl-4 max-md:pl-0 text-[#a4a4a4] arrow-right-icon-wrapper">
             Читать полностью
             <ArrowRightIcon class="inline-block w-5 h-5" />
           </NuxtLink>
