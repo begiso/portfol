@@ -53,7 +53,8 @@ const removeActiveClass = (el: { target: HTMLElement }) => {
     </a>
 
     <button
-      @click="isMenuOpen = !isMenuOpen"
+      name="Drawer Menu"
+      aria-label="Open Menu" @click="isMenuOpen = !isMenuOpen"
     >
       <BurgerMenuIcon class="md:hidden w-7 h-7 hover:cursor-pointer" />
     </button>

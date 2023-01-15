@@ -18,7 +18,7 @@ defineEmits<{
         <NuxtLink to="/" class="mr-auto text-3xl font-bold leading-none" @click="$emit('close')">
           <h1>Begis</h1>
         </NuxtLink>
-        <button @click="$emit('close')">
+        <button name="Close" aria-label="Close Menu" @click="$emit('close')">
           <XIcon />
         </button>
       </div>

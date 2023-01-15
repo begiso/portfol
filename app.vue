@@ -1,6 +1,13 @@
 <script setup lang="ts">
 useHead({
+  htmlAttrs: {
+    lang: 'ru',
+  },
   titleTemplate: titleChunk => titleChunk ? `${titleChunk} | Begis` : 'Begis Orınbaev',
+  meta: [
+    { name: 'keywords', content: 'Begis, Orinbaev, portfolio, UI, UX, UI/UX, developer' },
+    { name: 'description', content: 'Begis Orınbaev\'s portfolio' },
+  ],
   link: [
     {
       rel: 'icon', type: 'image/png', href: '/nuxt.png',
@@ -45,7 +52,7 @@ footer {
 }
 
 .link {
-  @apply border-b hover:text-green-400 hover:border-green-400;
+  @apply border-b hover: text-green-400 hover:border-green-400;
 }
 
 /* Page Transition */
