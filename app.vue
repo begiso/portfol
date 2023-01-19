@@ -52,7 +52,7 @@ footer {
 }
 
 .link {
-  @apply border-b hover: text-green-400 hover:border-green-400;
+  @apply border-b hover:text-green-400 hover:border-green-400;
 }
 
 /* Page Transition */
