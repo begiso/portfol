@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-black text-white max-md:text-sm w-full p-6 flex max-md:flex-col items-center justify-center">
+  <footer class="bg-black text-white max-md:text-sm w-full p-10 flex max-md:flex-col items-center justify-center">
     <div class="max-w-6xl w-full flex justify-between items-center">
       <div>
         <span class="block mb-3 text-xl max-md:hidden">Begis Orınbaev © {{ new Date().getFullYear() }}</span>
