@@ -4,23 +4,22 @@ import { DESIGN } from '~/projects'
 
 <template>
   <div>
-    <div class="my-60 max-md:my-10 max-w-2xl">
-      <p class="text-5xl max-md:text-2xl font-medium">
-        Привет, меня зовут Бегис. <span class="text-[#007fef]">Занимаюсь графическом и UX/UI дизайном</span>
+    <div class="my-56 max-md:mt-16 max-md:mb-28 max-w-[46rem]">
+      <p class="text-5xl max-md:text-2xl font-medium leading-[1.2]">
+        Привет, меня зовут Бегис. <span class="text-[#007fef]">Занимаюсь UX/UI дизайном и веб-разработкой.</span>
       </p>
 
-      <p class="my-10 max-md:my-5 text-2xl max-md:text-lg text-[#8d8d8d]">
-        Работаю в этой сфере более 3-х лет, работал в маркетинговом агентстве и веб-студии. <br> Есть опыт в
-        веб-разработке
+      <p class="mt-4 mb-12 max-md:mt-3 text-2xl max-md:text-lg text-[#8d8d8d]">
+        Работаю в этой сфере более 3-х лет, работал в маркетинговом агентстве и веб-студии. 
       </p>
 
       <NuxtLink to="/about" class="rounded-2xl py-5 px-10 text-white bg-black hover:bg-[#007fef]">
-        Обо мне ↗️
+        Обо мне 🚀
       </NuxtLink>
     </div>
 
     <h2 class="font-bold max-md:mt-16 text-3xl max-md:text-xl my-6 text-[#007fef]">
-      Избранные работы
+      Мои некоторые работы
     </h2>
 
     <div class="grid grid-cols-2 max-md:grid-cols-1 gap-6 items-center justify-center">

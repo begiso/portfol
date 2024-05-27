@@ -11,8 +11,8 @@ defineProps<{
   <NuxtLink :to="link" class="block rounded-md border border-solid border-[#dadada] arrow-right-icon-wrapper">
     <div class="flex items-center justify-between">
       <div class="left pt-3 pl-5">
-        <span class="text-xl font-light">{{ title }}</span>
-        <h2 class="py-2 font-medium text-xl">
+        <span class="text-xl  font-medium">{{ title }}</span>
+        <h2 class="py-2 font-light text-xl">
           {{ description }}
         </h2>
       </div>

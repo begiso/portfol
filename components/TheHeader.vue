@@ -47,9 +47,9 @@ const removeActiveClass = (el: { target: HTMLElement }) => {
       </ul>
     </nav>
 
-    <a class="max-md:hidden" href="mailto:begisorynbaev@gmail.com">
-      <span class="sr-only">Email</span>
-      <span>begisorynbaev@gmail.com</span>
+    <a class="max-md:hidden" href="tel:+998913042528">
+      <span class="sr-only">Phone</span>
+      <span>(91) 304 25 28</span>
     </a>
 
     <button

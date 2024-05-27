@@ -1,7 +1,7 @@
 export const DESIGN = [
   {
     title: 'Ami app',
-    description: 'UX/UI Design',
+    description: 'Mobile',
     link: '/portfolio/ami',
     thumbnail: 'img4.png',
     images: [
@@ -17,7 +17,7 @@ export const DESIGN = [
   },
   {
     title: 'Audiobook app',
-    description: 'UX/UI Design',
+    description: 'Mobile',
     link: '/portfolio/audiobook',
     thumbnail: 'img1.png',
     images: [
@@ -37,7 +37,7 @@ export const DESIGN = [
   },
   {
     title: 'Datanimate Landing Page',
-    description: 'Web Design',
+    description: 'Web/Mobile',
     link: '/portfolio/datanimate',
     thumbnail: 'img3.png',
     images: [
@@ -48,13 +48,45 @@ export const DESIGN = [
     ],
   },
   {
+    title: 'Newsmart Website',
+    description: 'Web/Mobile',
+    link: '/portfolio/newsmart',
+    thumbnail: 'img5.png',
+    images: [
+      {
+        src: '/images/newsmart/image1.png',
+        alt: 'Image 1',
+      },
+      {
+        src: '/images/newsmart/image2.png',
+        alt: 'Image 2',
+      },
+      {
+        src: '/images/newsmart/image3.png',
+        alt: 'Image 3',
+      },
+    ],
+  },
+  {
     title: 'Bizler Group Website',
-    description: 'Web Design',
+    description: 'Web/Mobile',
     link: '/portfolio/bizler',
     thumbnail: 'img2.png',
     images: [
       {
         src: '/images/bizler/image1.png',
+        alt: 'Image 1',
+      },
+    ],
+  },
+  {
+    title: 'Shipaker.uz Website',
+    description: 'Web/Mobile',
+    link: '/portfolio/shipaker',
+    thumbnail: 'img6.png',
+    images: [
+      {
+        src: '/images/shipaker/image1.png',
         alt: 'Image 1',
       },
     ],
